@@ -1,0 +1,79 @@
+Part 1 Discussions
+
+Run Time 
+
+1.  The runtime would be O(n) Linear time because like a list you would have to check each item thru iteration if the animal cracker is an elephant. 
+
+2. Order of run times
+
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^2)
+O(2^n)
+O(n!)
+
+
+Stacks and Queues
+
+1.1 Stacks are more appropriate in this case to load them all and then unload them off the top. LIFO last in, first out. 
+
+1.2. A queue would be more appropriate in this case to have a line or list.
+Items are only added to a queue be enqueueing them at the back and items are only removed from a queue by dequeueing them at the front. FIFO first in first out. Newer items are near the back of the queue older items are near the front.
+
+1.3. 2 + (7 * 4) - (3/2) 
+28.5
+
+
+2. Two more situations that are applicable for a queue would be a line to order food at Mcdonalds FIFO. A second situation is playing songs in a juke box first in first out. 
+
+3. Two more situations that are applicable for a stack is at a buffet place 
+there are plates stacked and pushed down by the food trays. LIFO you would grab off the top.  Another example is a stack of pancakes you would want to take the hottest freshest which is off the top. 
+
+Linked Lists
+
+1. The nodes are Apple_node, Berry_node, and Cherry_node. 
+
+The data for each node is a string or text for example Apple_node is string "Apple", Berry_node is the string "Berry", and Cherry_node is string "Cherry". 
+
+The head node is the first node which is the Apple_node. 
+
+The tail node is the last node which is the Cherry_node. 
+
+2. The difference between the doubly linked lists and the singly linked lists is 
+that the doubly linked lists have a previous node allowing the direction of the arrows to go backwards in addition to next node.
+
+A singly linked lists only allows one direction of arrows going forward and has a next node and not a previous node. 
+
+3. It is faster because you are no longer having to traverse the list and walk to the end to add the node there. You have to go thru each item in the list. 
+When you keep track of the tail as an attribute it is faster because you do not have to traverse the list you can go straigth to the tail and add the node. 
+
+
+
+Trees 
+
+1. BFS find burritos
+
+Italian, Indian, Mexican 
+Indian, Mexican, lasagna, pizza
+Mexican, lasagna, pizza, tikka masala, saag
+lasagna, pizza, tikka masala, saag, burritos, tacos, enchiladas
+
+
+2. DFS
+
+Italian, Indian, Mexican
+Italian, Indian, burritos, tacos, enchiladas
+Italian, Indian, burritos, tacos, 
+Italian, Indian, burritos
+Italian, Indian
+Italian, tikka masala, saag
+Italian, tikka masala
+Italian
+lasagna, pizza
+lasagna, sicilian, New York-style, Chicago-style, thin-crust
+
+
+3. Binary search tree at most has two children, fast searching, and each node has a left and right node. 
+
